@@ -1,5 +1,5 @@
 {
-  "name": "Octotree",
+  "name": "OctotreeX",
   "version": "$VERSION",
   "description": "GitHub on steroids",
   "homepage_url": "https://www.octotree.io",
@@ -19,7 +19,7 @@
   "content_scripts": [
     {
       "run_at": "document_start",
-      "matches": ["https://github.com/*"],
+      "matches": ["https://github.com/*", "https://gitlab.qunhequnhe.com/*"],
       "js": ["content.js"],
       "css": ["content.css"]
     }

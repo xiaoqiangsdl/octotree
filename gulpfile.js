@@ -1,11 +1,9 @@
 const gulp = require('gulp');
 const gutil = require('gulp-util');
 const fs = require('fs');
-const os = require('os');
 const path = require('path');
 const {merge} = require('event-stream');
 const map = require('map-stream');
-const {spawn} = require('child_process');
 const $ = require('gulp-load-plugins')();
 const uglify = require('gulp-uglify-es').default;
 
